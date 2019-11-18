@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+#boss {
+  position: absolute;
+  top: 0;
+  left : 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fabada;
+  border-radius: 50%;
+  transition: .3s ease all;
+  cursor: pointer;
+}
